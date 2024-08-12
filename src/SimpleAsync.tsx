@@ -37,21 +37,16 @@ const SimpleAsync = () => {
   }
 
   return (
-    <div className="flex justify-center items-center bg-gray-800 h-screen w-screen">
-      <span className="absolute top-0 place-self-center bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
+    <div className="flex relative justify-center items-center bg-[url('./assets/breaking_bad-16.jpg')] bg-cover bg-no-repeat bg-center h-screen w-screen">
       {data.map((quote, index) => (
         <div
           key={index}
-          className="relative p-5  bg-white dark:bg-gray-800 border-2 rounded-md hover:scale-75 transition duration-500 text-pretty	"
+          className=" box-border md:box-content absolute p-5 backdrop-blur-xl bg-black/30 
+border-b-4 rounded-md hover:scale-75 transition duration-500 w-96 text-center  "
         >
-          <div className="font-mono flex flex-col items-center">
-            <h2 className="my-2 ml-3 text-2xl font-bold text-gray-800 dark:text-white">
-              Breaking bad Quotes
-            </h2>
-            <h1 className="text-3xl font-mono text-teal-100 ">{quote.quote}</h1>
-            <h2 className="text-2xl text-amber-400">
-              Character: {quote.author}
-            </h2>
+          <div className="font-mono flex flex-col items-center text-pretty self-end ">
+            <h1 className="text-3xl font-mono text-white ">{quote.quote}</h1>
+            <h2 className="py-2 text-xl text-amber-400">{quote.author}</h2>
           </div>
         </div>
       ))}

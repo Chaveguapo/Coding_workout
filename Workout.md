@@ -2,7 +2,7 @@ MD-> Markdown
 
 # Remember to check the task as completed
 
--[] Completed
+-[X] Completed
 
 # Project 1-Simple Async Function with React -[] Completed
 

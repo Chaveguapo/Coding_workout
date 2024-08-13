@@ -1,3 +1,4 @@
+import "./index.css";
 import ParallaxContainer from "./assets/Components/ParallaxContainer";
 
 function App() {

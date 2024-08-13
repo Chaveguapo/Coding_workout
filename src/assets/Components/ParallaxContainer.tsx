@@ -1,5 +1,6 @@
 import QuotesBreakingBad from "./QuotesBreakingBad";
 import QuotesGot from "./QuotesGot";
+import "index.css";
 
 const ParallaxContainer = () => {
   return (

@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         Background: "url('./assets/breaking_bad-16.jpg')",
       },
+      backgroundImage: {
+        Background: "url('./assets/BetterCall.jpg')",
+      },
     },
     plugins: [],
   },

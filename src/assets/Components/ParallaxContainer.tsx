@@ -1,5 +1,6 @@
 import QuotesBreakingBad from "./QuotesBreakingBad";
-import QuotesGOT from "./QuotesGot";
+import QuotesGot from "./QuotesGot";
+import "index.css";
 
 const ParallaxContainer = () => {
   return (
@@ -7,7 +8,7 @@ const ParallaxContainer = () => {
       <div className="parallax-section">
         <QuotesBreakingBad />
       </div>
-      <QuotesGOT />
+      <QuotesGot />
     </div>
   );
 };

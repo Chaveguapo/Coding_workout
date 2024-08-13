@@ -1,11 +1,13 @@
 import "./index.css";
-import ParallaxContainer from "./assets/Components/ParallaxContainer";
+import QuotesBreakingBad from "./assets/Components/QuotesBreakingBad";
+import QuotesGot from "./assets/Components/QuotesGot";
 
 function App() {
   return (
     <>
       <div>
-        <ParallaxContainer />
+        <QuotesBreakingBad />
+        <QuotesGot />
       </div>
     </>
   );

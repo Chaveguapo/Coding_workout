@@ -1,11 +1,13 @@
-import SimpleAsync from "./SimpleAsync";
 import "./index.css";
+import QuotesBreakingBad from "./assets/Components/QuotesBreakingBad";
+import QuotesGot from "./assets/Components/QuotesGot";
 
 function App() {
   return (
     <>
       <div>
-        <SimpleAsync />
+        <QuotesBreakingBad />
+        <QuotesGot />
       </div>
     </>
   );

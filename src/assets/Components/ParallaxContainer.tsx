@@ -1,5 +1,5 @@
-import QuotesBreakingBad from "./QuotesBreakingBad";
-import QuotesGot from "./QuotesGot";
+import QuotesBreakingBad from "./QuotesBreakingBad.tsx";
+import QuotesGot from "./QuotesGot.tsx";
 
 const ParallaxContainer = () => {
   return (

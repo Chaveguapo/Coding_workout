@@ -1,6 +1,6 @@
 import "./index.css";
-import QuotesBreakingBad from "./assets/Components/QuotesBreakingBad";
-import QuotesGot from "./assets/Components/QuotesGot";
+import QuotesBreakingBad from "./assets/Components/QuotesBreakingBad.tsx";
+import QuotesGot from "./assets/Components/QuotesGot.tsx";
 
 function App() {
   return (

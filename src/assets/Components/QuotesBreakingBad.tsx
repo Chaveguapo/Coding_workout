@@ -8,7 +8,6 @@ interface QuoteData {
 const QuotesBreakingBad = () => {
   const [data, setData] = useState<QuoteData[] | null>(null); // Handles an array of quotes
   const [loading, setLoading] = useState<boolean>(true); // Loading state
-
   useEffect(() => {
     const fetchData = async () => {
       try {
